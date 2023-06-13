@@ -2,11 +2,11 @@
 
 ## Description
 
-- The purpose of this challenge was to create 
-- Adjusted HTML by adding 6 more time-blocks to schedule an 8-hour workday, and gave each a unique ID.
-- Added a Day, Date, and Time display to the top of the page, set to local time.
-- Added function to save-button to take and save notes in each time-block to local storage.
-- Added function that color codes each time-block as past(grey), present(red), or future(green).
+- The purpose of this challenge was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+- Adjusted HTML to create template for api calls.
+- Changed CSS to improve the look of dashboard and to fill information called dynamically.
+- Created functioning backend to fetch information from the OpenWeather API.
+- 
 
 
 ## License

@@ -1,10 +1,15 @@
+// global variables
 
 var apiKey = 'bf0f7985b6acec17e7b656cb46548c35';
 var searchEl = document.getElementById('searchBar');
 var searchBtn = document.getElementById('searchBtn');
 
+// calls date and time
+
 dayjs.extend(window.dayjs_plugin_utc);
 dayjs.extend(window.dayjs_plugin_timezone);
+
+// function for retrieving location data
 
 function getCoords() {
   var cityName = searchEl.value;
@@ -25,6 +30,8 @@ function getCoords() {
 
 }
 
+// function for retrieving weather data
+
 function getWeather(lat, lon) {
   var requestUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`
  
@@ -34,9 +41,9 @@ function getWeather(lat, lon) {
     })
     .then(function(data) {
 
-      // console.log(data)
-
       const currentWeather = data.list[0];
+
+// dynamically creates a card for todays weather in a specified location
 
       const cardHtml = `
       <div class="col-12 bg-light primary rounded border border-dark">
@@ -53,6 +60,9 @@ function getWeather(lat, lon) {
 
         const iconUrl = `https://openweathermap.org/img/w/${today.weather[0].icon}.png`
         console.log(today);
+
+        // dynamically creates a cards for a 5 day weather forecast in a specified location
+
         
         const weatherDayCard = `
         <div class="col-sm-2 bg-dark text-white rounded">
