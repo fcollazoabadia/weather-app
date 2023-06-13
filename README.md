@@ -4,9 +4,10 @@
 
 - The purpose of this challenge was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 - Adjusted HTML to create template for api calls.
-- Changed CSS to improve the look of dashboard and to fill information called dynamically.
-- Created functioning backend to fetch information from the OpenWeather API.
-- 
+- Changed CSS to improve the look of dashboard and to display fetched data dynamically.
+- Created functioning backend to fetch data from the OpenWeather API.
+- Created funtion to fetch todays weather in a specified location
+- created function to fetch a 5 day forecast in a specified location
 
 <img width="1125" alt="Screenshot 2023-06-12 202954" src="https://github.com/fcollazoabadia/weather-app/assets/123603271/3cec7456-c84b-481a-9ac8-7aee855d8e8f">
 
