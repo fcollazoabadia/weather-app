@@ -8,6 +8,11 @@
 - Created functioning backend to fetch information from the OpenWeather API.
 - 
 
+<img width="1125" alt="Screenshot 2023-06-12 202954" src="https://github.com/fcollazoabadia/weather-app/assets/123603271/3cec7456-c84b-481a-9ac8-7aee855d8e8f">
+
+## Link
+
+https://fcollazoabadia.github.io/weather-app/
 
 ## License
 MIT License
