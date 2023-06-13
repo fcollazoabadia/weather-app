@@ -4,9 +4,14 @@
 
 - The purpose of this challenge was to create 
 - Adjusted HTML by adding 6 more time-blocks to schedule an 8-hour workday, and gave each a unique ID.
-- Added a Day, Date, and Time display to the top of the page, set to local time.
+- Added a Day, Date, and Time display to the top of the page, set to local time.``
 - Added function to save-button to take and save notes in each time-block to local storage.
 - Added function that color codes each time-block as past(grey), present(red), or future(green).
+
+<img width="1125" alt="Screenshot 2023-06-12 202954" src="https://github.com/fcollazoabadia/weather-app/assets/123603271/3cec7456-c84b-481a-9ac8-7aee855d8e8f">
+
+## Link
+
 
 
 ## License
